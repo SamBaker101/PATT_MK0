@@ -10,9 +10,9 @@ My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y
 
 ## Parts
 
-My initial approach to part selection is to minimize cost where ever reasonable. At this point my goal is to build a functional printer and through doing so develop my own skills and identify any knowledge gaps or incorrect assumptions I have.  
+My initial approach to part selection is to minimize cost where ever reasonable. At this point my goal is to build a functional printer without a strong focus on print speed or quality (yet). Through doing so I hope to develop my own skills and identify any knowledge gaps or incorrect assumptions I have.  
 
-Once I have created a prototype device and rectified any design issues that become clear during that process I will begin iterating on the device and replacing those lower cost parts with higher end equipment where necessary.  
+Once I have created a prototype device and rectified any design issues that become clear during that process I will begin iterating on the device and replacing those lower cost parts with higher end equipment where necessary to improve overall quality.  
 
 ## Modelling
 
