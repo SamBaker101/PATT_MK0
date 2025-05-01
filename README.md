@@ -28,14 +28,14 @@ I will be tackling the Y-Axis first as it invludes both the print surface and th
 
 - [x] Extrusions
 - [x] Linear Slider
-- [] Linear Rail
-- [] Print Surface and Plate
-- [] Bracket for Plate
-- [] Assorted Connectors
-- [] Motor
-- [] Motor Bracket
-- [] Pulleys
-- [] Timing Belt
+- [ ] Linear Rail
+- [ ] Print Surface and Plate
+- [ ] Bracket for Plate
+- [ ] Assorted Connectors
+- [ ] Motor
+- [ ] Motor Bracket
+- [ ] Pulleys
+- [ ] Timing Belt
 
 ### X-Axis
 
