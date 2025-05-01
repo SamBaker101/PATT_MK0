@@ -22,7 +22,7 @@ The model will be broken into 3 primary sections, one for each axis. The Y-axis 
 
 ### Y-Axis
 
-I will be tackling the Y-Axis first as it invludes both the print surface and the devices base.
+I will be tackling the Y-Axis first as it includes both the print surface and the devices base.
 
 #### Parts to be Modeled
 
