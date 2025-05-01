@@ -8,7 +8,7 @@ This repo will probably be pretty sparse for a while. Im still in the early stag
 
 My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y motion will be applied to the print plate while the hot-end will move in the X and Z directions. It's my feeling that this will provide the most straightforward framework to develop a working printer which I can iterate and improve upon over time.
 
-I am tentitively planing a print surface of 300 x 300 x 300 mm.
+I am tentitively planning a print surface of 300 x 300 x 300 mm.
 
 ## Parts
 
