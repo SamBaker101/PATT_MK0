@@ -32,7 +32,7 @@ https://www.freecad.org/
 
 - [x] Extrusions
 - [x] Linear Bearing
-- [ ] Linear Rail
+- [x] Linear Rail
 - [ ] Assorted Connectors
 - [ ] Motor
 - [ ] Motor Bracket
@@ -43,6 +43,7 @@ https://www.freecad.org/
 #### Y-Axis
 
 - [x] Print Surface Plate
+- [ ] Spacer/Crossbeams for plate (Currently being interfered with by rails end caps, needs tp be higher)
 
 #### X-Axis
 
