@@ -44,11 +44,11 @@ https://www.freecad.org/
 
 #### X-Axis
 
-- [] Hot End
-- [] Extruder
-- [] Hot End and Extruder Brackets
+- [ ] Hot End
+- [ ] Extruder
+- [ ] Hot End and Extruder Brackets
 
 #### Z-Axis
 
-- [] Filament Holder
-- [] XZ-Axis Connector Brackets
+- [ ] Filament Holder
+- [ ] XZ-Axis Connector Brackets
