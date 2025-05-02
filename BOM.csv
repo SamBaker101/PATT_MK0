@@ -1,1 +1,3 @@
-Num,    Part,   Link,   Location,   Description,    Quantity
+Num,    Quantity,   Part,   Location,   Description,    Link
+0,      1,          Aluminum Plate, Y-Axis, 300mm x 300mm x 3mm 6061 T6,    https://www.amazon.ca/gp/product/B09M2DFZHV/ref=ox_sc_act_title_5?smid=A1M8G92U41XEUX&psc=1
+1,      4,          Linear Bearing, Y-Axis, Slotted Bearing,                https://www.amazon.ca/gp/product/B09V7HJHK9/ref=ox_sc_act_title_6?smid=AWADNQ91WGVYS&psc=1
