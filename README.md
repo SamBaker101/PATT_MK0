@@ -36,6 +36,7 @@ https://www.freecad.org/
 - [ ] Motor Bracket
 - [ ] Pulleys
 - [ ] Timing Belt
+- [x] Belt Clamps
 
 #### Y-Axis
 
