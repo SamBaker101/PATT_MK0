@@ -12,11 +12,7 @@ I am tentitively planning a print surface of 300 x 300 x 300 mm.
 
 ## Parts
 
-<<<<<<< HEAD
-My initial approach to part selection is to minimize cost where ever reasonable. My goal is to build a functional printer without a strong focus on print speed or quality (yet). Through doing so I hope to develop my own skills and identify any knowledge gaps or incorrect assumptions I have.  
-=======
 My initial approach to part selection is to minimize cost wherever reasonable. At this point my goal is to build a functional printer without a strong focus on print speed or quality (yet). Through doing so I hope to develop my own skills and identify any knowledge gaps or incorrect assumptions I have.  
->>>>>>> 40696871205419a4de7ee0feba8384cece4355ea
 
 Once I have created a prototype device and rectified any design issues that become clear during that process I will begin iterating on the device and replacing those lower cost parts with higher end equipment where necessary to improve overall quality.  
 
@@ -24,23 +20,34 @@ Once I have created a prototype device and rectified any design issues that beco
 
 The model will be broken into 3 primary sections, one for each axis. The Y-axis assembly will include the print plate while the X-axis will include the hotend and extruder. Each of these main assemblies will be further divided into sub assemblies to isolate different segments such as motor drives, frame segments, ect. 
 
-### Y-Axis
+All models will be created using FreeCAD 1.0. FreeCAD can be downloaded at the following link to access or modify the files:
 
-I will be tackling the Y-Axis first as it includes both the print surface and the devices base.
+https://www.freecad.org/
 
-#### Parts to be Modeled
+### Parts to be Modeled
+
+#### General
 
 - [x] Extrusions
-- [x] Linear Slider
+- [x] Linear Bearing
 - [ ] Linear Rail
-- [ ] Print Surface and Plate
-- [ ] Bracket for Plate
 - [ ] Assorted Connectors
 - [ ] Motor
 - [ ] Motor Bracket
 - [ ] Pulleys
 - [ ] Timing Belt
 
-### X-Axis
+#### Y-Axis
 
-### Z-Axis
+- [x] Print Surface Plate
+
+#### X-Axis
+
+- [] Hot End
+- [] Extruder
+- [] Hot End and Extruder Brackets
+
+#### Z-Axis
+
+- [] Filament Holder
+- [] XZ-Axis Connector Brackets
