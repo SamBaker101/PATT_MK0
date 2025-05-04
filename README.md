@@ -1,5 +1,9 @@
 # PRINT ALL THE THINGS!
 
+![image](images\Y-Axis_05_03.PNG)
+
+Current Y-Axis model
+
 ## A Quick Note
 
 This repo will probably be pretty sparse for a while. Im still in the early stages of this project but I wanted to create a place to begin accumulating models, design documentation and parts research. Ill keep this readme updated as things develop.
@@ -32,7 +36,7 @@ https://www.freecad.org/
 
 - [x] Extrusions
 - [x] Linear Bearing
-- [x] Linear Rail
+- [x] Linear Rails
 - [ ] Assorted Connectors
 - [ ] Motor
 - [ ] Motor Bracket

@@ -1,6 +1,9 @@
 Num,    Quantity,   Part,   Location,   Description,    Link
-0,      1,          Aluminum Plate, Y-Axis, 250mm x 250mm x 2mm 6061 T6,    https://www.amazon.ca/gp/product/B09M2DFZHV/ref=ox_sc_act_title_5?smid=A1M8G92U41XEUX&psc=1
+0,      1,          Aluminum Plate, Y-Axis, 10 x 10 x 1/4 6061 T6,    https://www.amazon.ca/gp/product/B09M2DFZHV/ref=ox_sc_act_title_5?smid=A1M8G92U41XEUX&psc=1
 1,      4,          Linear Bearing, Y-Axis, Bearing,                        https://www.amazon.ca/gp/product/B0DJVH1GZ5/ref=ox_sc_act_title_1?smid=A1FKD2SXBZI70H&psc=1
 2,      2,          Belt Clamp,     Y-Axis, Part of timing belt kit?,       https://www.amazon.ca/gp/product/B08SMFM3Z6/ref=ox_sc_act_title_4?smid=AK64CGABQOWCO&th=1
 3,      2,          Linear Rod,     Y-Axis, 400mm Packaged with [1],        https://www.amazon.ca/gp/product/B0DJVH1GZ5/ref=ox_sc_act_title_1?smid=A1FKD2SXBZI70H&psc=1
 4,      4,          Rod End Caps,   Y-Axis, Packaged with [1],              https://www.amazon.ca/gp/product/B0DJVH1GZ5/ref=ox_sc_act_title_1?smid=A1FKD2SXBZI70H&psc=1
+5,      4,          2020 T extusion 400mm, Frame, 2020 T extrusion,       https://www.amazon.ca/gp/product/B08Y8N7FD1/ref=ox_sc_act_title_6?smid=A23OX0U7MNKDYT&th=1
+6,      4,          2020 T extusion 300mm, Frame, 2020 T extrusion,       https://www.amazon.ca/gp/product/B099N5HLM1/ref=ewc_pr_img_5?smid=A2E52U58FCDBRC&th=1
+7,      4,          Bearing Spacers, Y-Axis, Spacers to lift build plate,  Blocks of wood in initial build then 3d print them
