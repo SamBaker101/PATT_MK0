@@ -43,7 +43,7 @@ https://www.freecad.org/
 #### Y-Axis
 
 - [x] Print Surface Plate
-- [ ] Spacer/Crossbeams for plate (Currently being interfered with by rails end caps, needs tp be higher)
+- [x] Spacer/Crossbeams for plate (Currently being interfered with by rails end caps, needs tp be higher)
 
 #### X-Axis
 
