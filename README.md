@@ -38,8 +38,8 @@ https://www.freecad.org/
 - [x] Linear Bearing
 - [x] Linear Rails
 - [ ] Assorted Connectors
-- [ ] Motor
-- [ ] Motor Bracket
+- [x] Motor
+- [x] Motor Bracket
 - [ ] Pulleys
 - [ ] Timing Belt
 - [x] Belt Clamps
