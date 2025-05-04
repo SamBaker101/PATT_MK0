@@ -1,6 +1,6 @@
 # PRINT ALL THE THINGS!
 
-![image](images\Y-Axis_05_03.PNG)
+![image](./images/Y-Axis_05_03.PNG)
 
 Current Y-Axis model
 
