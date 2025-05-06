@@ -22,6 +22,10 @@ My initial approach to part selection is to minimize cost wherever reasonable. A
 
 Once I have created a prototype device and rectified any design issues that become clear during that process I will begin iterating on the device and replacing those lower cost parts with higher end equipment where necessary to improve overall quality.  
 
+![image](.\images\full_frame_05_06.PNG)
+
+Full Frame Model
+
 ## Modelling
 
 The model will be broken into 3 primary sections, one for each axis. The Y-axis assembly will include the print plate while the X-axis will include the hotend and extruder. Each of these main assemblies will be further divided into sub assemblies to isolate different segments such as motor drives, frame segments, ect. 
@@ -37,11 +41,9 @@ https://www.freecad.org/
 - [x] Extrusions
 - [x] Linear Bearing
 - [x] Linear Rails
-- [ ] Assorted Connectors
 - [x] Motor
 - [x] Motor Bracket
 - [ ] Pulleys
-- [ ] Timing Belt
 - [x] Belt Clamps
 
 #### Y-Axis
@@ -59,3 +61,4 @@ https://www.freecad.org/
 
 - [ ] Filament Holder
 - [ ] XZ-Axis Connector Brackets
+
