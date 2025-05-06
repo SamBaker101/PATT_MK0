@@ -22,7 +22,7 @@ My initial approach to part selection is to minimize cost wherever reasonable. A
 
 Once I have created a prototype device and rectified any design issues that become clear during that process I will begin iterating on the device and replacing those lower cost parts with higher end equipment where necessary to improve overall quality.  
 
-![image](.\images\full_frame_05_06.PNG)
+<img src="./images/full_frame_05_06.PNG" alt="drawing" width="500"/>
 
 Full Frame Model
 
