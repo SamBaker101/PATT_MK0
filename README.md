@@ -17,7 +17,9 @@ My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y
 - Frame Material: 2020 Aluminium Extrusion (T-Slot)
 - 8mm Linear Rods and Bearings 
      - 2 per axis
-
+- Actuation:
+     - X and Y Axis: 6mm Belt
+     - Z-Axis: Dual Lead Screws
 - V1: 3.3V
 - V2: 12V
 
