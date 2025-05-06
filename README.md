@@ -15,8 +15,15 @@ My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y
 - Print Area: ~300 x 300 x 300 mm 
 - Total Size:  400 x 540 x 540 mm
 - Frame Material: 2020 Aluminium Extrusion (T-Slot)
+
 - V1: 3.3V
 - V2: 12V
+
+- Stepper Motors (Nema 17) Total: 5
+     - Y-Axis: 1
+     - X-Axis: 1
+     - Z-Axis: 2
+     - Extruder: 1
 
 ## Parts
 
