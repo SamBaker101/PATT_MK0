@@ -6,7 +6,7 @@ Current Y-Axis model
 
 ## A Quick Note
 
-This repo will probably be pretty sparse for a while. Im still in the early stages of this project but I wanted to create a place to begin accumulating models, design documentation and parts research. Ill keep this readme updated as things develop.
+This project is still in the design phase and as yet remains unproven. 
 
 ## Design Considerations
 
@@ -15,8 +15,10 @@ My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y
 - Print Area: ~300 x 300 x 300 mm 
 - Total Size:  400 x 540 x 540 mm
 - Frame Material: 2020 Aluminium Extrusion (T-Slot)
+
 - 8mm Linear Rods and Bearings 
      - 2 per axis
+
 - Actuation:
      - X and Y Axis: 6mm Belt
      - Z-Axis: Dual Lead Screws
@@ -35,11 +37,11 @@ My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y
 | Part               | Part Detail   | Number | Voltage      | Power          | Comment                             |
 |--------------------|---------------|--------|--------------|----------------|-------------------------------------|
 |Stepper             |Nema 17        | 5      |  12V - 24V   | 20.4W - 40.8W  |                                     |
-|Motor Controllers   |               | 4      |              |                | Z-Axis can share controller         |
-|Hot End             |?              | 1      |              |                |                                     |
-|Control Board       |?              | 1      |              |                |                                     |
+|Motor Controllers   |?              | 4      |              |                | Z-Axis can share controller         |
+|Hot End             |? E3D V6       | 1      |              |                |                                     |
+|Control Board       |? BigTree SKG  | 1      |              |                | I'm interested in making my own but will wait until things are running|
 |Limit Switches      |Leaf Switches  | 3      |              |                |                                     |
-|Heated Bed          |?              | 1      |              |                |                                     |
+|Heated Bed          |?              | 1      |              |                | Will probably leave off initial build and upgrade later |
 |PSU                 |?              | 1      | 24V          |                |                                     |
 |Step Down Converter |?              | 1      | 24V -> 3.3V  |                | May be included in controller       |
 
