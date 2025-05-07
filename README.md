@@ -22,12 +22,19 @@ My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y
      - Z-Axis: Dual Lead Screws
 - V1: 3.3V
 - V2: 12V
+- V3: 24V?
 
 - Stepper Motors (Nema 17) Total: 5
      - Y-Axis: 1
      - X-Axis: 1
      - Z-Axis: 2
      - Extruder: 1
+
+## Electrical
+
+| Part          | Part Detail   | Number | Voltage | Power | Comment                             |
+|-------------  |---------------|--------|---------|-------|-------------------------------------|
+|Stepper        | Nema 17       | 5      |  12V    | 12W   |                                     |
 
 ## Parts
 
