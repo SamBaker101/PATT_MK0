@@ -43,7 +43,7 @@ https://www.freecad.org/
 - [x] Linear Rails
 - [x] Motor
 - [x] Motor Bracket
-- [ ] Pulleys
+- [x] Timing Idlers
 - [x] Belt Clamps
 
 #### Y-Axis
