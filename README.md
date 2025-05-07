@@ -44,6 +44,7 @@ My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y
 |Heated Bed          |?              | 1      |              |                | Will probably leave off initial build and upgrade later |
 |PSU                 |?              | 1      | 24V          |                |                                     |
 |Step Down Converter |?              | 1      | 24V -> 3.3V  |                | May be included in controller       |
+|Fans                |               | 1+     | 12-24V       |                |                                     |
 
 ## Parts
 
