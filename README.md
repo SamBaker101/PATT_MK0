@@ -1,8 +1,6 @@
 # PRINT ALL THE THINGS!
 
-![image](./images/Y-Axis_05_03.PNG)
 
-Current Y-Axis model
 
 ## A Quick Note
 
@@ -37,7 +35,7 @@ My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y
 | Part               | Part Detail   | Number | Voltage      | Power          | Comment                             |
 |--------------------|---------------|--------|--------------|----------------|-------------------------------------|
 |Stepper             |Nema 17        | 5      |  12V - 24V   | 20.4W - 40.8W  |                                     |
-|Motor Controllers   |?              | 4      |              |                | Z-Axis can share controller         |
+|Motor Controllers   |?              | 4      |              |                | Z-Axis can share controller, May be included in control board         |
 |Hot End             |? E3D V6       | 1      |              |                |                                     |
 |Control Board       |? BigTree SKR  | 1      |              |                | I'm interested in making my own but will wait until things are running|
 |Limit Switches      |Leaf Switches  | 3      |              |                |                                     |
@@ -67,6 +65,8 @@ https://www.freecad.org/
 <img src="./images/full_frame_05_06.PNG" alt="drawing" width="500"/>
 
 #### Y-Axis
+
+<img src="./images/Y-Axis_05_07.PNG" alt="drawing" width="500"/>
 
 #### X-Axis
 
