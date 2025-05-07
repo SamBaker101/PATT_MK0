@@ -39,7 +39,7 @@ My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y
 |Stepper             |Nema 17        | 5      |  12V - 24V   | 20.4W - 40.8W  |                                     |
 |Motor Controllers   |?              | 4      |              |                | Z-Axis can share controller         |
 |Hot End             |? E3D V6       | 1      |              |                |                                     |
-|Control Board       |? BigTree SKG  | 1      |              |                | I'm interested in making my own but will wait until things are running|
+|Control Board       |? BigTree SKR  | 1      |              |                | I'm interested in making my own but will wait until things are running|
 |Limit Switches      |Leaf Switches  | 3      |              |                |                                     |
 |Heated Bed          |?              | 1      |              |                | Will probably leave off initial build and upgrade later |
 |PSU                 |?              | 1      | 24V          |                |                                     |
