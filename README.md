@@ -20,9 +20,9 @@ My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y
 - Actuation:
      - X and Y Axis: 6mm Belt
      - Z-Axis: Dual Lead Screws
-- V1: 3.3V
-- V2: 12V
-- V3: 24V?
+
+- V_CPU: 3.3V
+- V_IN : 24V
 
 - Stepper Motors (Nema 17) Total: 5
      - Y-Axis: 1
@@ -32,19 +32,22 @@ My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y
 
 ## Electrical
 
-| Part          | Part Detail   | Number | Voltage | Power | Comment                             |
-|-------------  |---------------|--------|---------|-------|-------------------------------------|
-|Stepper        | Nema 17       | 5      |  12V    | 12W   |                                     |
+| Part               | Part Detail   | Number | Voltage      | Power          | Comment                             |
+|--------------------|---------------|--------|--------------|----------------|-------------------------------------|
+|Stepper             |Nema 17        | 5      |  12V - 24V   | 20.4W - 40.8W  |                                     |
+|Motor Controllers   |               | 4      |              |                | Z-Axis can share controller         |
+|Hot End             |?              | 1      |              |                |                                     |
+|Control Board       |?              | 1      |              |                |                                     |
+|Limit Switches      |Leaf Switches  | 3      |              |                |                                     |
+|Heated Bed          |?              | 1      |              |                |                                     |
+|PSU                 |?              | 1      | 24V          |                |                                     |
+|Step Down Converter |?              | 1      | 24V -> 3.3V  |                | May be included in controller       |
 
 ## Parts
 
 My initial approach to part selection is to minimize cost wherever reasonable. At this point my goal is to build a functional printer without a strong focus on print speed or quality (yet). Through doing so I hope to develop my own skills and identify any knowledge gaps or incorrect assumptions I have.  
 
 Once I have created a prototype device and rectified any design issues that become clear during that process I will begin iterating on the device and replacing those lower cost parts with higher end equipment where necessary to improve overall quality.  
-
-<img src="./images/full_frame_05_06.PNG" alt="drawing" width="500"/>
-
-Full Frame Model
 
 ## Modelling
 
@@ -53,6 +56,18 @@ The model will be broken into 3 primary sections, one for each axis. The Y-axis 
 All models will be created using FreeCAD 1.0. FreeCAD can be downloaded at the following link to access or modify the files:
 
 https://www.freecad.org/
+
+### Models
+
+#### Full Frame
+
+<img src="./images/full_frame_05_06.PNG" alt="drawing" width="500"/>
+
+#### Y-Axis
+
+#### X-Axis
+
+#### Z-Axis
 
 ### Parts to be Modeled
 
