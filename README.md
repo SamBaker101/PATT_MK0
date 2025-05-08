@@ -42,13 +42,7 @@ My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y
 |Heated Bed          |?              | 1      |              |                | Will probably leave off initial build and upgrade later |
 |PSU                 |?              | 1      | 24V          |                |                                     |
 |Step Down Converter |?              | 1      | 24V -> 3.3V  |                | May be included in controller       |
-|Fans                |               | 1+     | 12-24V       |                |                                     |
-
-## Parts
-
-My initial approach to part selection is to minimize cost wherever reasonable. At this point my goal is to build a functional printer without a strong focus on print speed or quality (yet). Through doing so I hope to develop my own skills and identify any knowledge gaps or incorrect assumptions I have.  
-
-Once I have created a prototype device and rectified any design issues that become clear during that process I will begin iterating on the device and replacing those lower cost parts with higher end equipment where necessary to improve overall quality.  
+|Fans                |               | 1+     | 12-24V       |                |                                     |  
 
 ## Modelling
 
@@ -71,6 +65,20 @@ https://www.freecad.org/
 #### X-Axis
 
 #### Z-Axis
+
+## Parts
+
+My initial approach to part selection is to minimize cost wherever reasonable. At this point my goal is to build a functional printer without a strong focus on print speed or quality (yet). Through doing so I hope to develop my own skills and identify any knowledge gaps or incorrect assumptions I have.  
+
+Once I have created a prototype device and rectified any design issues that become clear during that process I will begin iterating on the device and replacing those lower cost parts with higher end equipment where necessary to improve overall quality.
+
+### Custom Parts
+
+I've encountered a few places where the most cost effective, straightforward or easily available solution is to design a custom part. Unfortunately, I dont currently have access to a 3d printer. My hope is that I can  use woodblocks, zipties and prayers to hold the design together well enough to print rough copies of these parts and refine things from there. If that proves impossible I will reach out to a printing service or local makerspace to create these parts.
+
+#### Offset Rod End Caps
+
+#### Timing Idler Mount
 
 ### Parts to be Modeled
 
