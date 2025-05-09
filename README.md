@@ -82,24 +82,13 @@ Needs a bracket to hold mounting bearings for lead screw
 
 #### General
 
-- [x] Extrusions
-- [x] Linear Bearing
-- [x] Linear Rails
-- [x] Motor
-- [x] Motor Bracket
-- [x] Timing Idlers
-- [x] Belt Clamps
-
-#### Y-Axis
-
-- [x] Print Surface Plate
-- [x] Spacer/Crossbeams for plate (Currently being interfered with by rails end caps, needs tp be higher)
-
 #### X-Axis
 
 - [ ] Hot End
 - [ ] Extruder
 - [ ] Hot End and Extruder Brackets
+- [ ] Lead Screw Bearing Brackets
+- [ ] Lead Screw Flange and Block
 
 #### Z-Axis
 
