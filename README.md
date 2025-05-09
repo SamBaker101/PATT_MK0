@@ -11,7 +11,7 @@ This project is still in the design phase and as yet remains unproven.
 My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y motion will be applied to the print plate while the hot-end will move in the X and Z directions. It's my feeling that this will provide the most straightforward framework to develop a working printer which I can iterate and improve upon over time.
 
 - Print Area: ~300 x 300 x 300 mm 
-- Total Size:  400 x 540 x 540 mm
+- Total Size:  480 x 540 x 540 mm
 - Frame Material: 2020 Aluminium Extrusion (T-Slot)
 
 - 8mm Linear Rods and Bearings 
@@ -35,9 +35,10 @@ My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y
 | Part               | Part Detail   | Number | Voltage      | Power          | Comment                             |
 |--------------------|---------------|--------|--------------|----------------|-------------------------------------|
 |Stepper             |Nema 17        | 5      |  12V - 24V   | 20.4W - 40.8W  |                                     |
-|Motor Controllers   |?              | 4      |              |                | Z-Axis can share controller, May be included in control board         |
-|Hot End             |? E3D V6       | 1      |              |                |                                     |
-|Control Board       |? BigTree SKR  | 1      |              |                | I'm interested in making my own but will wait until things are running|
+|Motor Controllers   |TMC2209        | 4      |              |                | Z-Axis can share controller              |
+|Hot End             |Anycubic Kobra2| 1      |              |                | This is probably very temporary but will get me up and running  |
+|Driver Board        |RAMPS1.4       | 1      |              |                | I'm interested in making my own but will wait until things are running|
+|Main Board          |Arduino Mega   | 1      |              |                |                                      |   
 |Limit Switches      |Leaf Switches  | 3      |              |                |                                     |
 |Heated Bed          |?              | 1      |              |                | Will probably leave off initial build and upgrade later |
 |PSU                 |?              | 1      | 24V          |                |                                     |
