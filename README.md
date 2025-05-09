@@ -66,11 +66,17 @@ https://www.freecad.org/
 
 #### Y-Axis
 
-<img src="./images/Y-Axis_05_07.PNG" alt="drawing" width="500"/>
+<img src="./images/y_axis.PNG" alt="drawing" width="500"/>
 
 #### X-Axis
 
 #### Z-Axis
+
+<img src="./images/z_axis.PNG" alt="drawing" width="500"/>
+
+Still needs flanges and block to carry the x-axis
+
+Needs a bracket to hold mounting bearings for lead screw
 
 ### Parts to be Modeled
 
