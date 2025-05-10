@@ -21,7 +21,7 @@ My intention is to build a basic Cartesian printer. Y motion will be applied to 
      - X and Y Axis: 6mm Belt
      - Z-Axis: Dual Lead Screws
 
-- V_CPU: 3.3V
+- V_CPU: 5V
 - V_IN : 24V
 
 - Stepper Motors (Nema 17) Total: 5
@@ -32,18 +32,18 @@ My intention is to build a basic Cartesian printer. Y motion will be applied to 
 
 ## Electrical
 
-| Part               | Part Detail   | Number | Voltage      | Power          | Comment                             |
-|--------------------|---------------|--------|--------------|----------------|-------------------------------------|
-|Stepper             |Nema 17        | 5      |  12V - 24V   | 20.4W - 40.8W  |                                     |
-|Motor Controllers   |TMC2209        | 4      |              |                | Z-Axis can share controller              |
-|Hot End             |Anycubic Kobra2| 1      |              |                | This is probably very temporary but will get me up and running  |
-|Driver Board        |RAMPS1.4       | 1      |              |                | I'm interested in making my own but will wait until things are running|
-|Main Board          |Arduino Mega   | 1      |              |                |                                      |   
-|Limit Switches      |Leaf Switches  | 3      |              |                |                                     |
-|Heated Bed          |?              | 1      |              |                | Will probably leave off initial build and upgrade later |
-|PSU                 |?              | 1      | 24V          |                |                                     |
-|Step Down Converter |?              | 1      | 24V -> 3.3V  |                | May be included in controller       |
-|Fans                |               | 1+     | 12-24V       |                |                                     |  
+| Part               | Part Detail   | Number | Voltage      |Current       | Power          | Comment                             |
+|--------------------|---------------|--------|--------------|--------------|----------------|-------------------------------------|
+|Stepper             |Nema 17        | 5      |  24V         |1.7A          | 40.8W          |                                     |
+|Motor Controllers   |TMC2209        | 4      |  24V         |7.5mA         | 180mW          | Z-Axis can share controller              |
+|Hot End             |Anycubic Kobra2| 1      ||| 60W            | This is probably very temporary but will get me up and running, Power number is a rough estimate as hard numbers are limited  |
+|Driver Board        |RAMPS1.4       | 1      |  24V         ||                | Interested in designing my own in future, will need modification to run at 24V|
+|Main Board          |Arduino Mega   | 1      |  5V          ||                | Draw 5V off RAMPS board, cut power diode on RAMPS to avoid running 24V in|   
+|Limit Switches      |Leaf Switches  | 3      |              ||                |                                     |
+|Heated Bed          |?              | 1      |              ||                | Will leave off initial build and upgrade later |
+|PSU                 |?              | 1      | 24V          ||                |                                     |
+|Step Down Converter |?              | 1      | 24V -> 3.3V  ||                | May be included in controller       |
+|Fans                |               | 1+     | 12-24V       ||                |                                     |  
 
 ## Modelling
 
