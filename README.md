@@ -8,7 +8,7 @@ This project is still in the design phase and as yet remains unproven.
 
 ## Design Considerations
 
-My intention is to build a Cartesian printer similar to a Prusa i3 or Ender-3. Y motion will be applied to the print plate while the hot-end will move in the X and Z directions. It's my feeling that this will provide the most straightforward framework to develop a working printer which I can iterate and improve upon over time.
+My intention is to build a basic Cartesian printer. Y motion will be applied to the print plate while the hot-end will move in the X and Z directions. It's my feeling that this will provide the most straightforward framework to develop a working printer which I can iterate and improve upon over time.
 
 - Print Area: ~300 x 300 x 300 mm 
 - Total Size:  480 x 540 x 540 mm
@@ -58,6 +58,8 @@ https://www.freecad.org/
 #### Full Frame
 
 <img src="./images/full_frame_05_06.PNG" alt="drawing" width="500"/>
+
+Needs Feet of some kind as the motors will drop beneath the frame by ~20mm. Could assist with leveling and shock absorbtion as well.
 
 #### Y-Axis
 
