@@ -42,7 +42,6 @@ My intention is to build a basic Cartesian printer. Y motion will be applied to 
 |Limit Switches      |Leaf Switches  | 3      |              ||                |                                     |
 |Heated Bed          |?              | 1      |              ||                | Will leave off initial build and upgrade later |
 |PSU                 |?              | 1      | 24V          ||                |                                     |
-|Step Down Converter |?              | 1      | 24V -> 3.3V  ||                | May be included in controller       |
 |Fans                |               | 1+     | 12-24V       ||                |                                     |  
 
 ## Modelling
