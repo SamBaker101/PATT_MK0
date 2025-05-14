@@ -21,27 +21,18 @@ My intention is to build a basic Cartesian printer. Y motion will be applied to 
      - X and Y Axis: 6mm Belt
      - Z-Axis: Dual Lead Screws
 
-- V_CPU: 5V
-- V_IN : 24V
-
-- Stepper Motors (Nema 17) Total: 5
-     - Y-Axis: 1
-     - X-Axis: 1
-     - Z-Axis: 2
-     - Extruder: 1
-
 ## Electrical
 
 | Part               | Part Detail   | Number | Voltage      |Current       | Power          | Comment                             |
 |--------------------|---------------|--------|--------------|--------------|----------------|-------------------------------------|
 |Stepper             |Nema 17        | 5      |  24V         |1.7A          | 40.8W          |                                     |
-|Motor Controllers   |TMC2209        | 4      |  24V         |7.5mA         | 180mW          | Z-Axis can share controller              |
+|Motor Controllers   |TMC2209        | 4      |  24V         |7.5mA         | 180mW          | Z-Axis can share controller, RAMPS board may need modification to use these  |
 |Hot End             |Anycubic Kobra2| 1      ||| 60W            | This is probably very temporary but will get me up and running, Power number is a rough estimate as hard numbers are limited  |
 |Driver Board        |RAMPS1.4       | 1      |  24V         ||                | Interested in designing my own in future, will need modification to run at 24V|
 |Main Board          |Arduino Mega   | 1      |  5V          ||                | Draw 5V off RAMPS board, cut power diode on RAMPS to avoid running 24V in|   
 |Limit Switches      |Leaf Switches  | 3      |              ||                |                                     |
 |Heated Bed          |?              | 1      |              ||                | Will leave off initial build and upgrade later |
-|PSU                 |?              | 1      | 24V          ||                |                                     |
+|PSU                 |LEDMO          | 1      | 24V          | 20A | 480W               | https://www.amazon.ca/gp/product/B08975B78Z/ref=ox_sc_act_title_4?smid=A38O99J0OT8HQ0&th=1  |
 |Fans                |               | 1+     | 12-24V       ||                |                                     |  
 
 ## Modelling
@@ -70,10 +61,6 @@ Needs Feet of some kind as the motors will drop beneath the frame by ~20mm. Coul
 
 <img src="./images/z_axis.PNG" alt="drawing" width="500"/>
 
-Still needs flanges and block to carry the x-axis
-
-Needs a bracket to hold mounting bearings for lead screw
-
 ## Parts
 
 My initial approach to part selection is to minimize cost wherever reasonable. At this point my goal is to build a functional printer without a strong focus on print speed or quality (yet). Through doing so I hope to develop my own skills and identify any knowledge gaps or incorrect assumptions I have.  
@@ -101,8 +88,6 @@ Current model will be replaced with tensioning version, Screenshot to come
 - [ ] Hot End
 - [ ] Extruder
 - [ ] Hot End and Extruder Brackets
-- [ ] Lead Screw Bearing Brackets
-- [ ] Lead Screw Flange and Block
 
 #### Z-Axis
 
