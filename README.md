@@ -75,6 +75,10 @@ I've encountered a few places where the most cost effective, straightforward or 
 
 <img src="./images/offset_rod_end_caps.PNG" alt="drawing" width="200"/>
 
+#### Lead Screw Top Bracket
+
+<img src="./images/lead_screw_top_bracket.PNG" alt="drawing" width="200"/>
+
 #### Timing Idler Mount
 
 Current model will be replaced with tensioning version, Screenshot to come
