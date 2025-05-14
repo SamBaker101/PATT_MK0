@@ -57,6 +57,12 @@ Needs Feet of some kind as the motors will drop beneath the frame by ~20mm. Coul
 
 #### X-Axis
 
+<img src="./images/x_axis.PNG" alt="drawing" width="500"/>
+
+ - Cart and hot end assembly still required
+ - XZ Bracket assemblies need refinement
+ - Belt Tensioner missing from left bracket
+
 #### Z-Axis
 
 <img src="./images/z_axis.PNG" alt="drawing" width="500"/>
@@ -96,5 +102,5 @@ Current model will be replaced with tensioning version, Screenshot to come
 #### Z-Axis
 
 - [ ] Filament Holder
-- [ ] XZ-Axis Connector Brackets
+
 

@@ -6,4 +6,6 @@ Num,    Quantity,   Part,   Location,   Description,    Link
 4,      4,          Rod End Caps,   Y-Axis, Packaged with [1],              https://www.amazon.ca/gp/product/B0DJVH1GZ5/ref=ox_sc_act_title_1?smid=A1FKD2SXBZI70H&psc=1
 5,      4,          2020 T extusion 400mm, Frame, 2020 T extrusion,       https://www.amazon.ca/gp/product/B08Y8N7FD1/ref=ox_sc_act_title_6?smid=A23OX0U7MNKDYT&th=1
 6,      4,          2020 T extusion 300mm, Frame, 2020 T extrusion,       https://www.amazon.ca/gp/product/B099N5HLM1/ref=ewc_pr_img_5?smid=A2E52U58FCDBRC&th=1
-7,      4,          Bearing Spacers, Y-Axis, Spacers to lift build plate,  Blocks of wood in initial build then 3d print them
+7,4,Bearing Spacers, Y-Axis, Spacers to lift build plate,  Blocks of wood in initial build then 3d print them
+
+Note This BOM is pretty out of date,Ill be updating it once the design is locked in
