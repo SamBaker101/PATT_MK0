@@ -21,6 +21,33 @@ My intention is to build a basic Cartesian printer. Y motion will be applied to 
      - X and Y Axis: 6mm Belt
      - Z-Axis: Dual Lead Screws
 
+## Roadmap
+
+The following milestones will be used to direct my efforts in this project. My overall philosophy here is to begin with the simplest and lowest cost printer I can create regardless of its print speed and quality. Once this basic device is built I will begin iterating on it to improve its function and reliability.
+
+### MK0 - Zip Ties and Prayers
+
+- Goal: Print a cube
+- Expected Date: 06/30/2025 
+- Comments:  This is meant to be a minimum viable product. The only expectation is that I can connect to it, upload g-code and the printer will make a recognizable attempt to print it. At this time I will not be concerned with the print speed or any issues with the output (within reason). It is also notable that for this step I will not have access to 3d printed parts so many of the brackets and connections will need to be made with a combination of particle board, zip ties and assorted hardware.
+
+### MK1 - It Prints Itself?
+
+- Goal: Replace all temporary parts with self printed parts, these parts must be reliable, consistant and free of major artifacts.
+- Expected Date: 08/30/2025
+- Comments: Once MK0 is able to complete prints I will begin replacing the temporary plywood parts with custom designed 3d printed parts. I expect this to be an iterative process as replacing selected parts should increase the overall print quality which would in turn allow me to make better versions of those parts. At this time I will also be adding mechanical belt tensioning systems and a reliable bed leveling mechanism.
+
+### MK2 - Upgrade$$$
+
+- Goal: Print Benchy without major errors in PETG, TPE and HIPS. Print in place an extendable sword in PLA.
+- Expected Date: 10/30/2025
+- Comments: In my initial build I generally went with the lowest cost option to avoid any expensive mistakes, Now is the time to correct that. Upgrade the control board, motor controllers and hot end to competitive versions. At this time I will also add a heated bed and upgrade any of the PLA printed parts as required. At this point I expect to be well aware of any other issues in the build (linear rods, lead screws ect), so I will take care of any of these issues which I've been putting off.
+
+#### MKZ - Next Steps
+- Explore alternate configurations (Core XY, Delta 3d ect.)
+- Build a temperature controlled (and sound insulating) cabinet
+- Add a second extruder
+
 ## Electrical
 
 | Part               | Part Detail   | Number | Voltage      |Current       | Power          | Comment                             |
