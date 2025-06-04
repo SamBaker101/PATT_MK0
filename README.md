@@ -53,6 +53,8 @@ The following milestones will be used to direct my efforts in this project. My o
 
 ## Electrical
 
+<img src="./electrical/electrical_diagram.png" alt="drawing" width="1000"/>
+
 | Part               | Part Detail   | Number | Voltage      |Current       | Power          | Comment                             |
 |--------------------|---------------|--------|--------------|--------------|----------------|-------------------------------------|
 |Stepper             |Nema 17        | 5      |  24V         |1.7A          | 40.8W          |                                     |
