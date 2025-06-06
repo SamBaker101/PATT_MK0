@@ -50,6 +50,7 @@ The following milestones will be used to direct my efforts in this project. My o
 - Explore alternate configurations (Core XY, Delta 3d ect.)
 - Build a temperature controlled (and sound insulating) cabinet
 - Add a second extruder
+- Add a 
 
 ## Electrical
 
