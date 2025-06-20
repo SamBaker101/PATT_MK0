@@ -10,7 +10,7 @@ This project is still in the design phase and as yet remains unproven.
 
 My intention is to build a basic Cartesian printer. Y motion will be applied to the print plate while the hot-end will move in the X and Z directions. It's my feeling that this will provide the most straightforward framework to develop a working printer which I can iterate and improve upon over time.
 
-- Print Area: ~300 x 300 x 300 mm 
+- Print Area: ~300 x 300 x 300 mm (250mm x 300mm for MK0 due to space constraints)
 - Total Size:  480 x 540 x 540 mm
 - Frame Material: 2020 Aluminium Extrusion (T-Slot)
 
@@ -39,18 +39,21 @@ The following milestones will be used to direct my efforts in this project. My o
 - Expected Date: 08/30/2025
 - Comments: Once MK0 is able to complete prints I will begin replacing the temporary plywood parts with custom designed 3d printed parts. I expect this to be an iterative process as replacing selected parts should increase the overall print quality which would in turn allow me to make better versions of those parts. At this time I will also be adding mechanical belt tensioning systems and a reliable bed leveling mechanism.
 
+## Use It
+
+At this point I should have a relitively functional printer. I think it's important here to use the printer for it's intended purpose for few weeks-months building other projects. I am eager to begin work on some new robotics projetcs and to explore the organizational print community so this shouldn't be a struggle. This will give me a better sense of the printers capabilities and it's major pain points. I may make small tweeks during this time but as the next stages involve some major upgrades I want to make sure I fully understand the printer by that point.
+
 ### MK2 - Upgrade$$$
 
-- Goal: Print Benchy without major errors in PETG, TPE and HIPS. Print in place an extendable sword in PLA.
+- Goal: Print Benchy without major errors in PETG, TPE and ABS. Print in place an extendable sword in PLA.
 - Status: Planned
-- Expected Date: 10/30/2025
+- Expected Date: Start date + 2 months
 - Comments: In my initial build I generally went with the lowest cost option to avoid any expensive mistakes, Now is the time to correct that. Upgrade the control board, motor controllers and hot end to competitive versions. At this time I will also add a heated bed and upgrade any of the PLA printed parts as required. At this point I expect to be well aware of any other issues in the build (linear rods, lead screws ect), so I will take care of any of these issues which I've been putting off.
 
 #### MKZ - Next Steps
 - Explore alternate configurations (Core XY, Delta 3d ect.)
 - Build a temperature controlled (and sound insulating) cabinet
 - Add a second extruder
-- Add a 
 
 ## Electrical
 
