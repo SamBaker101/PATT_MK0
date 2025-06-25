@@ -1,5 +1,8 @@
 *.FCBak
 
-software/Marlin-bugfix-2.1.x/
+software/Marlin-bugfix-2.1.x/*
+!software/Marlin-bugfix-2.1.x/Marlin/
+
+software/Marlin-bugfix-2.1.x/Marlin/*
 !software/Marlin-bugfix-2.1.x/Marlin/Configuration.h
 !software/Marlin-bugfix-2.1.x/Marlin/Configuration_adv.h
