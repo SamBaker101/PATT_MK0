@@ -4,5 +4,5 @@ software/Marlin-2.1.2.5/*
 !software/Marlin-2.1.2.5/Marlin/
 
 software/Marlin-2.1.2.5/Marlin/*
-!software/Marlin-2.1.2.5/Marlin/Configuration.h
+!software/Marlin-2.1.2.5/Marlin/Configuration.h*
 !software/Marlin-2.1.2.5/Marlin/Configuration_adv.h
