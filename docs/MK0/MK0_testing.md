@@ -11,7 +11,7 @@
 <img src="./images/40mm_cube_top.jpg" alt="pic" width="400"/>
 
 ## Benchy
-<img src="./images/benchy_side.jpg" alt="pic" width="600"/>
-<img src="./images/benchy_bottom.jpg" alt="pic" width="600"/>
-<img src="./images/benchy_front.jpg" alt="pic" width="600"/>
-<img src="./images/benchy_back.jpg" alt="pic" width="600"/>
+<img src="./images/benchy_side.jpg" alt="pic" width="400"/>
+<img src="./images/benchy_bottom.jpg" alt="pic" width="400"/>
+<img src="./images/benchy_front.jpg" alt="pic" width="400"/>
+<img src="./images/benchy_back.jpg" alt="pic" width="400"/>
