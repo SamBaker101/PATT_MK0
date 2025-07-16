@@ -28,15 +28,19 @@ The following milestones will be used to direct my efforts in this project. My o
 ### MK0 - Zip Ties and Prayers
 
 - Goal: Print a cube
-- Status: In Progress
+- Status: Complete
 - Expected Date: 06/30/2025 
-- Comments:  This is meant to be a minimum viable product. The only expectation is that I can connect to it, upload g-code and the printer will make a recognizable attempt to print it. At this time I will not be concerned with the print speed or any issues with the output (within reason). It is also notable that for this step I will not have access to 3d printed parts so many of the brackets and connections will need to be made with a combination of particle board, zip ties and assorted hardware.
+- Completion Date: 07/14/2025
+- Comments:  This is meant to be a minimum viable product. The only expectation is that I can connect to it, upload g-code and the printer will make a recognizable attempt to print it. At this time I will not be concerned with the print speed or any issues with the output (within reason). It is also notable that for this step I will not have access to 3d printed parts so many of the brackets and connections will need to be made with a combination of particle board, zip ties and assorted hardware.  
+ - [Debrief](docs\MK0\MK0_debrief.md)  
+ - [Testing](docs\MK0\MK0_testing.md)  
+ - [BOM](\docs\MK0\MK0_BOM.csv)     
 
 ### MK1 - It Prints Itself?
 
 - Goal: Replace all temporary parts with self printed parts, these parts must be reliable, consistant and free of major artifacts.
 - Status: Planned
-- Expected Date: 08/30/2025
+- Expected Date: 09/30/2025
 - Comments: Once MK0 is able to complete prints I will begin replacing the temporary plywood parts with custom designed 3d printed parts. I expect this to be an iterative process as replacing selected parts should increase the overall print quality which would in turn allow me to make better versions of those parts. At this time I will also be adding mechanical belt tensioning systems and a reliable bed leveling mechanism.
 
 ## Use It
