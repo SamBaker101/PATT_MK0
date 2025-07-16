@@ -6,9 +6,9 @@
 
 It's not pretty... but it works
 
-The primary constraint with this initial prototype is one many people run into when building their first 3d printer. That is, that I didn't have a 3d printer. Since I couldn't easily prototype or manufacture custom parts I limitted myself to using only parts I could make using basic tools. These tools included a jig-saw, a power drill, A soldering iron and a variety of hand tools. 
+The primary constraint with this prototype was one many people run into when building their first 3d printer. That is, that I didn't have a 3d printer. Since I couldn't easily prototype or manufacture custom parts I limitted myself to using only parts I could make using basic tools. These tools included a jig-saw, a power drill, a soldering iron and a variety of hand tools. 
 
-I opted to start with a relitively large build area. My initial plan was to have a full 300mm cubic build space though unfortunately for this initial prototype I ended up having to limit that to 175mm x 175mm x 250mm (more on that later). This may have been for the best as bed leveling has proven challenging on this initial build.
+I opted to start with a large build area. My initial plan was to have a full 300mm cubic build space though unfortunately for this initial prototype I ended up having to limit that to 175mm x 175mm x 250mm (more on that later). This may have been for the best as bed leveling proved challenging on this initial build.
 
 While it's my intention to create my own printhead for this project I initially used a direct drive head from an Anycubic Kobra 2. I selected this for it's low cost and the fact that it was complete and self contained. A word of caution is that Anycubic does not open source their hardware or software so I did have to do some reverse engineering to get it working. I will not be publishing the details of that reverse engineering to avoid posting any copywritten IP.
 
@@ -16,7 +16,7 @@ The printer is based on the REPRAP 1.4 control board using an Arduino MEGA board
 
 ## Build Overview
 
-The main frame is built using a combination of aluminum extrusion and composite wood panelling that has been cut to sizes/shape and drilled as required. It is held together with a combination of metric hardware and zip-ties.
+The main frame is built using a combination of aluminum extrusion and composite wood paneling that has been cut to sizes/shape and drilled as required. It is held together with a combination of metric hardware and zip-ties.
 
 As discussed prior I am using an Anycubic printhead which moves in X on a belt driven carriage. The X-axis then moves verticly (Z) on a pair of lead screws.
 
@@ -33,10 +33,7 @@ All stepper motors are set up to use 1/16 microstepping.
 
 As mentioned above I have restricted the printer to use a 175x175x250mm build space. At time of writing I have not yet tested larger prints but will be doing so shortly.
 
-In my initial testing I had the Z axis bind when using too high of a feedrate. For this reason I have significantly limitted the speed of the printer. I have not tested the limits for these metrics as yet but will begin increasing them slowly as I begin building the parts for MK1.  
-
-
-
+In my initial testing I had the Z axis bind when using too high of a feedrate. For this reason I have significantly limited the speed of the printer. I have not tested the limits for these metrics as yet but will begin increasing them slowly as I begin building the parts for MK1.  
 
 ## Lessons
 While perfection was never the goal here this project was not without it's problems. Below I would like to detail some of the main issues I encountered building this prototype and discuss the lessons learned from them. 
@@ -46,16 +43,16 @@ As mentioned earlier I had to reduce the bed size from my projected 300mm cubed 
 
 For the X-axis I opted to have the verticle rods sit inside the frame. This choice was made to simplify the brackets used to hold these rods. Additionally since I was using composite panels I ended up having to make the X carriage and brackets larger than expected which blocks some of the X travel.
 
-The Y-axis has similar issues with the size of it's brackets but also could be corrected by placing the bearings closer together so that the bed could hang over these brackets further.
+The Y-axis has similar issues with the size of it's brackets but also could be corrected by placing the bearings closer together so that the bed could hang over these brackets further. This is a double edged fix though as it could impact the stability of the bed.
 
 This is also the reason I am using a plain glass panel as a print surface. I purchased a removable build plate which I will be using for future iterations but it does not fit on the current build.
 
 ### Z-Endstop Relocation
 In my initial design I had the Z-Endstop at the top of the axis. When testing I found it was very difficult to get a consisting starting position on prints. To mitigate this I moved the endstop to the bottom.
 
-The major difference here is that when the endstop is at the top you can configure the starting position via software. Now the endstop would need to be physically moved to adjust the height from the build plate. 
+The major difference here is that when the endstop is at the top you can configure the starting position via software, telling the axis how far to move from it's home position. Now the endstop would need to be physically moved to adjust the height from the build plate. 
 
-This may be less of an issue in future builds where the frame and axis have less slop. In all likelyhood I will eventually switch to a bed probe of some kind so I am not to concerned about this going forward. 
+This may be less of an issue in future builds where the frame and axis have less slop. In all likelyhood though, I will eventually switch to a bed probe of some kind in future builds. That means I am not too concerned about this change going forward. 
 
 ### Bed Leveling Issues
 My bed leveling mechanism consists of 2 panels. The lower panel holds the bearing and has a bolt in each corner. These four bolts are placed from below facing up with a nut placed loosely on them. tightening or loosening the nut adjusts how much of the bolt stands above the plate while the remainder of the bolt hangs below.
@@ -67,6 +64,8 @@ This system works but can be frustrating to use for the following reasons.
 - 4 Adjustment points are being used when only 3 are required
 - Bolt must be held while nut is turned
 - Nuts/Bolts can be very hard to reach
+
+I will be redesigning this system to make it simpler and easier to use in future iterations.
 
 ### Wood Panelling is not Nice
 Because I am the way I am, I went to the hardware store and bought the cheapest "wood" I could find to create the brackets. This came in the form of a composite paneling which appears to be some kind of compacted cardboard product... 
