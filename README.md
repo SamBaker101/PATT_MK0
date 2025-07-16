@@ -1,6 +1,6 @@
 # PRINT ALL THE THINGS!
 
-<img src="./images/full_build.PNG" alt="drawing" width="750"/>
+<img src="./docs/MK0/images/full_printer1.jpg" alt="pic" width="600"/>
 
 ## A Quick Note
 
@@ -76,6 +76,8 @@ At this point I should have a relitively functional printer. I think it's import
 |Fans                |               | 1+     | 12-24V       ||                |                                     |  
 
 ## Modelling
+
+<img src="./images/full_build.PNG" alt="drawing" width="750"/>
 
 The model will be broken into 3 primary sections, one for each axis. The Y-axis assembly will include the print plate while the X-axis will include the hotend and extruder. Each of these main assemblies will be further divided into sub assemblies to isolate different segments such as motor drives, frame segments, ect. 
 
