@@ -18,7 +18,7 @@ The printer is based on the REPRAP 1.4 control board using an Arduino MEGA board
 
 The main frame is built using a combination of aluminum extrusion and composite wood paneling that has been cut to sizes/shape and drilled as required. It is held together with a combination of metric hardware and zip-ties.
 
-As discussed prior I am using an Anycubic printhead which moves in X on a belt driven carriage. The X-axis then moves verticly (Z) on a pair of lead screws.
+As discussed prior I am using an Anycubic printhead which moves in X on a belt driven carriage. The X-axis then moves vertically (Z) on a pair of lead screws.
 
 The bed is a pane of glass which slides in the Y direction (Forward and Back) on a belt drive. This glass pane is supported by 4 bolts which can be adjusted to level the print bed.
 
@@ -27,7 +27,7 @@ Currently the electrical components (REPRAP board and power supply) are stored o
 ## Configurations
 
 Full config details can be found in the Marlin configuration document here:  
-[Configuration.h](../../software\Marlin-2.1.2.5\Marlin\Configuration.h)  
+[Configuration.h](https://github.com/SamBaker101/PATT_MK0/blob/main/software/Marlin-2.1.2.5/Marlin/Configuration.h)  
 
 All stepper motors are set up to use 1/16 microstepping.
 
@@ -52,10 +52,10 @@ In my initial design I had the Z-Endstop at the top of the axis. When testing I 
 
 The major difference here is that when the endstop is at the top you can configure the starting position via software, telling the axis how far to move from it's home position. Now the endstop would need to be physically moved to adjust the height from the build plate. 
 
-This may be less of an issue in future builds where the frame and axis have less slop. In all likelyhood though, I will eventually switch to a bed probe of some kind in future builds. That means I am not too concerned about this change going forward. 
+This may be less of an issue in future builds where the frame and axis have less slop. In all likelyhood though, I will eventually switch to a bed probe of some kind. That means I am not too concerned about this change going forward. 
 
 ### Bed Leveling Issues
-My bed leveling mechanism consists of 2 panels. The lower panel holds the bearing and has a bolt in each corner. These four bolts are placed from below facing up with a nut placed loosely on them. tightening or loosening the nut adjusts how much of the bolt stands above the plate while the remainder of the bolt hangs below.
+My bed leveling mechanism consists of 2 panels. The lower panel holds the bearings and has a bolt in each corner. These four bolts are placed from below facing up with a nut placed loosely on each. tightening or loosening the nut adjusts how much of the bolt stands above the plate while the remainder of the bolt hangs below.
 
 The upper panel holds the glass buildplate. Glued to the bottom of the upper plate are 4 spacers which sit overtop of the bolts.  
 
@@ -65,12 +65,14 @@ This system works but can be frustrating to use for the following reasons.
 - Bolt must be held while nut is turned
 - Nuts/Bolts can be very hard to reach
 
-I will be redesigning this system to make it simpler and easier to use in future iterations.
+I will be redesigning this system to make it simpler and easier to use in future iterations. This will include adding wheels to help turn the nuts (and/or bolts) and adding tension springs below the lower plate to keep the bolts stabalized.
 
 ### Wood Panelling is not Nice
-Because I am the way I am, I went to the hardware store and bought the cheapest "wood" I could find to create the brackets. This came in the form of a composite paneling which appears to be some kind of compacted cardboard product... 
+Because I am the way I am, I went to the hardware store and bought the cheapest "wood" I could find to create the brackets. This came in the form of a composite panelling which appears to be some kind of compacted cardboard product... 
 
 While functional it is deeply unpleasant to work with. It flakes away in layers when being drilled or cut and produces huge amounts of dust and shavings. if I was doing this again I would definitely spend a few extra dollars for a better material.
+
+Luckily these panels were always meant to be temporary. As I redesign the printer for MK1 I will be removing these parts and replacing them with printed ones.
 
 ### Hotend Sag
 Because I used a direct drive extruder the hotend is fairly heavy. This combined with the makeshift X carriage causes the printhead to sag. This means the hotend is not perpendicular to the build plate. 
@@ -80,6 +82,7 @@ The problem is not significant enough to cause prints to fail but definitely inf
 ## Next Steps
 
 - Replace The Panelling and Zip Ties
+- Add Feet and Additional Braces to Frame
 - Straighten Belt Runs and Add Tensioners
 - Create Room for Full Sized Bed
 - Create Better Bed Leveling System
