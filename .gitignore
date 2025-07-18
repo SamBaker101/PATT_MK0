@@ -1,4 +1,5 @@
 *.FCBak
+models/custom_parts/*.FCStd
 
 software/Marlin-2.1.2.5/*
 !software/Marlin-2.1.2.5/Marlin/
