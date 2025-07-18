@@ -30,9 +30,9 @@ The following milestones will be used to direct my efforts in this project. My o
 - Expected Date: 06/30/2025 
 - Completion Date: 07/14/2025
 - Comments:  This is meant to be a minimum viable product. The only expectation is that I can connect to it, upload g-code and the printer will make a recognizable attempt to print it. At this time I will not be concerned with the print speed or any issues with the output (within reason). It is also notable that for this step I will not have access to 3d printed parts so many of the brackets and connections will need to be made with a combination of particle board, zip ties and assorted hardware.  
- - [Debrief](docs\MK0\MK0_debrief.md)  
- - [Testing](docs\MK0\MK0_testing.md)  
- - [BOM](\docs\MK0\MK0_BOM.csv)     
+ - [Debrief](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK0/MK0_debrief.md)  
+ - [Testing](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK0/MK0_testing.md)  
+ - [BOM](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK0/MK0_BOM.csv)     
 
 ### MK1 - It Prints Itself?
 
@@ -124,7 +124,7 @@ Now that MK0 is complete I am beginning the process of replacing the wood panel 
 
 As I design these new parts I will place the stl files [here](https://github.com/SamBaker101/PATT_MK0/tree/main/models/custom_parts).
 
-Additionally I will include pictures and short descriptions of each part in this [document](models\custom_parts\custom_parts.md).
+Additionally I will include pictures and short descriptions of each part in this [document](https://github.com/SamBaker101/PATT_MK0/blob/main/models/custom_parts/custom_parts.md).
 
 As I get into replacing the more structural components of the build I will also replace the draft assemblies with new more accurate ones.
 
