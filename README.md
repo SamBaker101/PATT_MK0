@@ -117,32 +117,12 @@ Once I have created a prototype device and rectified any design issues that beco
 
 ### Custom Parts
 
-I've encountered a few places where the most cost effective, straightforward or easily available solution is to design a custom part. Unfortunately, I dont currently have access to a 3d printer. My hope is that I can  use woodblocks, zipties and prayers to hold the design together well enough to print rough copies of these parts and refine things from there. If that proves impossible I will reach out to a printing service or local makerspace to create these parts.
+Now that MK0 is complete I am beginning the process of replacing the wood panel parts with 3d printed ones. Additionally there are a numer of fairly hackey fixes (tensioners, bed leveling, endstops ect) which need more robust solutions.
 
-#### Offset Rod End Caps
+As I design these new parts I will place the stl files [here](https://github.com/SamBaker101/PATT_MK0/tree/main/models/custom_parts).
 
-<img src="./images/offset_rod_end_caps.PNG" alt="drawing" width="200"/>
+Additionally I will include pictures and short descriptions of each part in this [document](models\custom_parts\custom_parts.md).
 
-#### Lead Screw Top Bracket
-
-<img src="./images/lead_screw_top_bracket.PNG" alt="drawing" width="200"/>
-
-#### Timing Idler Mount
-
-Current model will be replaced with tensioning version, Screenshot to come
-
-### Parts to be Modeled
-
-#### General
-
-#### X-Axis
-
-- [ ] Hot End
-- [ ] Extruder
-- [ ] Hot End and Extruder Brackets
-
-#### Z-Axis
-
-- [ ] Filament Holder
+As I get into replacing the more structural components of the build I will also replace the draft assemblies with new more accurate ones.
 
 
