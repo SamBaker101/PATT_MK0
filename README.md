@@ -60,6 +60,7 @@ At this point I should have a functional printer. I think it's important here to
 - Build a vented, temperature controlled (and sound insulating) cabinet
 - Add a second extruder
 - Build an AMS
+- Build a dry box
 
 ## Electrical
 
