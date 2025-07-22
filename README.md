@@ -41,11 +41,15 @@ The following milestones will be used to direct my efforts in this project. My o
 - Expected Date: 09/30/2025
 - Comments: Once MK0 is able to complete prints I will begin replacing the temporary plywood parts with custom designed 3d printed parts. I expect this to be an iterative process as replacing selected parts should increase the overall print quality which would in turn allow me to make better versions of those parts. At this time I will also be adding mechanical belt tensioning systems and a reliable bed leveling mechanism.
 
-## Use It
+## MK2 - Use It
 
-At this point I should have a functional printer. I think it's important here to use the printer for it's intended purpose for few weeks-months building other projects. I am eager to begin work on some new robotics projetcs and to explore the organizational print community so this shouldn't be a struggle. This will give me a better sense of the printers capabilities and it's major pain points. I may make small tweeks during this time but as the next stages involve some major upgrades I want to make sure I fully understand the printer by that point.
+- Goal: 
+     - Print a Benchy in under 45min with no major quality issues
+- Status: Planned
+- Expected Date: Open
+- Comments: I think it's important here to use the printer for it's intended purpose for few weeks-months building other projects. I am eager to begin work on some new robotics projetcs and to explore the organizational print community so this shouldn't be a struggle. This will give me a better sense of the printers capabilities and it's major pain points.  As I become more familiar with the printer I will revisit the custom parts and look at other enhancements that can be made to improve performance. 
 
-### MK2 - Upgrade$$$
+### MK3 - Upgrade$$$
 
 - Goal: 
      - Print Benchy without major errors in PETG, TPE and ABS. 
