@@ -7,6 +7,10 @@
 Simple wheel to sit over bed levelling nuts and make adjustment easier. This is a quick mock-up which I may return to later to refine.
 
 ### Adjustment Bolt Sleeves
+<img src="images\bed_leveling_sleeve.PNG" alt="drawing" width="250"/>
+
+The spacers I used in the initial build have too large an internal diameter so there is slop in the bed, especially if the level screws are set too high. Additionally they are simple cylinders so the glue joints break easily. This part is meant to correct these issues.
+
 ### Lower Bed Carrier
 ### Bed Carrier
 
