@@ -25,7 +25,11 @@ The spacers I used in the initial build have too large an internal diameter so t
 ### X Carriage
 
 ## Electrical Components
-### X/Y End Stop Holders
+### End Stop Holders
+<img src="images\endstop_bracket.PNG" alt="drawing" width="250"/>
+
+This is a bracket to hold the limit switches. The bracket is designed to allow for minor adjustment of the switch position. This initial version of the bracket is made to work with the current wood panel frame brackets and will need to be revisited as I refine the rest of the frame design. The Z-Axis will require an additional bracket to hold the limit switch out from the frame in the correct position.
+
 ### Z Endstop Holder
 ### Electrical Component Board
 ### Cable Management Aids
