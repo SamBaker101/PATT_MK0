@@ -17,6 +17,9 @@ The spacers I used in the initial build have too large an internal diameter so t
 ## Structural
 ### Feet
 ### Corner Re-enforcements
+<img src="images\z_reenforcement.PNG" alt="drawing" width="250"/>
+
+This is a simple bracket to stabalize the connection between the z axis frame and the lower (y-axis) frame.
 
 ## Brackets and Carriages
 ### Y-Axis Brackets (Front and Back)
@@ -31,6 +34,10 @@ The spacers I used in the initial build have too large an internal diameter so t
 This is a bracket to hold the limit switches. The bracket is designed to allow for minor adjustment of the switch position. This initial version of the bracket is made to work with the current wood panel frame brackets and will need to be revisited as I refine the rest of the frame design. The Z-Axis will require an additional bracket to hold the limit switch out from the frame in the correct position.
 
 ### Z Endstop Holder
+<img src="images\z_endstop_bracket.PNG" alt="drawing" width="250"/>
+
+This holder works in conjunction with the general endstop holder to hold the z limit switch away from the frame. The slots alow fine tuning of the z height.
+
 ### Electrical Component Board
 ### Cable Management Aids
 
