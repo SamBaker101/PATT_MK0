@@ -120,9 +120,12 @@ Needs Feet of some kind as the motors will drop beneath the frame by ~20mm. Coul
 
 ## Parts
 
-My initial approach to part selection is to minimize cost wherever reasonable. At this point my goal is to build a functional printer without a strong focus on print speed or quality (yet). Through doing so I hope to develop my own skills and identify any knowledge gaps or incorrect assumptions I have.  
+My initial approach to part selection was to minimize cost wherever reasonable. My goal was to build a functional printer without a strong focus on print speed or quality. This was to allow time to develop my own skills and identify any knowledge gaps or incorrect assumptions I have.  
 
-Once I have created a prototype device and rectified any design issues that become clear during that process I will begin iterating on the device and replacing those lower cost parts with higher end equipment where necessary to improve overall quality.
+Now that I have created a prototype device, I will begin iterating on the device and replacing those lower cost parts with higher end equipment to improve overall quality.
+
+[MK0 BOM](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK0/MK0_BOM.csv)
+
 
 ### Custom Parts
 
