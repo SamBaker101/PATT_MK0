@@ -16,6 +16,10 @@ The spacers I used in the initial build have too large an internal diameter so t
 
 ## Structural
 ### Feet
+<img src="images\feet.PNG" alt="drawing" width="250"/>
+
+It's a foot! This is meant to stabalize the frame as well as raise the printer to allow room for the electronics board. Comprised of two seperate pieces (Bracket and Base). Rubber blocks will be attached to the base.
+
 ### Corner Re-enforcements
 <img src="images\z_reenforcement.PNG" alt="drawing" width="250"/>
 
