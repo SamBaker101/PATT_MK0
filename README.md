@@ -4,7 +4,7 @@
 
 ## Design Considerations
 
-My intention is to build a basic Cartesian printer. Y motion will be applied to the print plate while the hot-end will move in the X and Z directions. This is intended to provide the most straightforward framework to develop a working printer which I can iterate and improve upon over time.
+A Cartesian, Bed-slinger style, printer. Y motion is applied to the print plate while the hot-end moves in the X and Z directions. This  provides a straightforward framework to develop a working printer which I can iterate and improve upon over time.
 
 - Print Area: ~300 x 300 x 300 mm (175mm x 175mm for MK0 due to space constraints)
 - Total Size:  480 x 540 x 540 mm
@@ -37,9 +37,9 @@ The following milestones will be used to direct my efforts in this project. My o
 ### MK1 - It Prints Itself?
 
 - Goal: Replace all temporary parts with self printed parts, these parts must be reliable, consistant and free of major artifacts.
-- Status: Planned
+- Status: In Progress
 - Expected Date: 09/30/2025
-- Comments: Once MK0 is able to complete prints I will begin replacing the temporary plywood parts with custom designed 3d printed parts. I expect this to be an iterative process as replacing selected parts should increase the overall print quality which would in turn allow me to make better versions of those parts. At this time I will also be adding mechanical belt tensioning systems and a reliable bed leveling mechanism.
+- Comments: Once MK0 is able to complete prints I will begin replacing the temporary plywood parts with custom designed 3d printed parts. I expect this to be an iterative process as replacing selected parts should increase the overall print quality which would in turn allow me to make better versions of those parts. At this time I will also be adding mechanical belt tensioning systems and a reliable bed leveling mechanism. I will also create an electronics board beneath the print bed and clean up the wire routing.
 
 ## MK2 - Use It
 
@@ -86,9 +86,11 @@ The following milestones will be used to direct my efforts in this project. My o
 
 <img src="./images/full_build.PNG" alt="drawing" width="750"/>
 
-The model will be broken into 3 primary sections, one for each axis. The Y-axis assembly will include the print plate while the X-axis will include the hotend and extruder. Each of these main assemblies will be further divided into sub assemblies to isolate different segments such as motor drives, frame segments, ect. 
+NOTE: These models are approximate versions created while developing the printer design. I am in the process of redesigning a number of the parts and will be updating these assemblies as I solidify their new models.
 
-All models will be created using FreeCAD 1.0. FreeCAD can be downloaded at the following link to access or modify the files:
+The model is broken into 3 primary sections, one for each axis. The Y-axis assembly includes the print plate while the X-axis includes the hotend and extruder. Each of these main assemblies is further divided into sub assemblies to isolate different segments such as motor drives, frame segments, ect. 
+
+All models were created using FreeCAD 1.0. FreeCAD can be downloaded at the following link to access or modify the files:
 
 https://www.freecad.org/
 
