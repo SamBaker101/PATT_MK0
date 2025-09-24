@@ -19,6 +19,8 @@ A Cartesian, Bed-slinger style, printer. Y motion is applied to the print plate 
 
 - Reprap 1.4 Control Board
 
+- Orange Pi 4 LTS (Octoprint server)
+
 ## Roadmap
 
 The following milestones will be used to direct my efforts in this project. My overall philosophy here is to begin with the simplest and lowest cost printer I can create, regardless of its print speed and quality. Once this basic device is built I will begin iterating on it to improve its function and reliability.
@@ -29,7 +31,8 @@ The following milestones will be used to direct my efforts in this project. My o
 - Status: Complete
 - Expected Date: 06/30/2025 
 - Completion Date: 07/14/2025
-- Comments:  This is meant to be a minimum viable product. The only expectation is that I can connect to it, upload g-code and the printer will make a recognizable attempt to print it. At this time I will not be concerned with the print speed or any issues with the output (within reason). It is also notable that for this step I will not have access to 3d printed parts so many of the brackets and connections will need to be made with a combination of particle board, zip ties and assorted hardware.  
+- Comments:  This is meant to be a minimum viable product. The only expectation is that I can connect to it, upload g-code and the printer will make a recognizable attempt to print it. At this time I w
+ill not be concerned with the print speed or any issues with the output (within reason). It is also notable that for this step I will not have access to 3d printed parts so many of the brackets and connections will need to be made with a combination of particle board, zip ties and assorted hardware.  
  - [Debrief](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK0/MK0_debrief.md)  
  - [Testing](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK0/MK0_testing.md)  
  - [BOM](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK0/MK0_BOM.csv)     
@@ -38,7 +41,7 @@ The following milestones will be used to direct my efforts in this project. My o
 
 - Goal: Replace all temporary parts with self printed parts, these parts must be reliable, consistant and free of major artifacts.
 - Status: In Progress
-- Expected Date: 09/30/2025
+- Expected Date: 11/30/2025
 - Comments: Once MK0 is able to complete prints I will begin replacing the temporary plywood parts with custom designed 3d printed parts. I expect this to be an iterative process as replacing selected parts should increase the overall print quality which would in turn allow me to make better versions of those parts. At this time I will also be adding mechanical belt tensioning systems and a reliable bed leveling mechanism. I will also create an electronics board beneath the print bed and clean up the wire routing.
 
 ## MK2 - Use It
@@ -129,7 +132,7 @@ Now that I have created a prototype device, I will begin iterating on the device
 
 ### Custom Parts
 
-Now that MK0 is complete I am beginning the process of replacing the wood panel parts with 3d printed ones. Additionally there are a numer of fairly hackey fixes (tensioners, bed leveling, endstops ect) which need more robust solutions.
+Now that MK0 is complete I am beginning the process of replacing the wood panel parts with 3d printed ones. Additionally there are a number of fairly hackey fixes (tensioners, bed leveling, endstops ect) which need more robust solutions.
 
 As I design these new parts I will place the stl files [here](https://github.com/SamBaker101/PATT_MK0/tree/main/models/custom_parts).
 
