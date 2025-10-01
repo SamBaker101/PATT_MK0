@@ -20,6 +20,8 @@ The spacers I used in the initial build have too large an internal diameter so t
 
 It's a foot! This is meant to stabalize the frame as well as raise the printer to allow room for the electronics board. Comprised of two seperate pieces (Bracket and Base). Rubber blocks will be attached to the base.
 
+One change that I will make in my next iteration of this part ill be to extend the tabs which bolt to the frame. The screw holes on these tabs currently overlap with the lower portion of the foot making tightening the screws challenging.
+
 ### Corner Re-enforcements
 <img src="images\z_reenforcement.PNG" alt="drawing" width="250"/>
 
