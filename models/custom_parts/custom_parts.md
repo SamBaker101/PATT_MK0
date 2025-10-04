@@ -31,6 +31,10 @@ This is a simple bracket to stabalize the connection between the z axis frame an
 ### Y-Axis Brackets (Front and Back)
 ### X-Axis Brackets (Left and Right)
 ### Z-Axis Brackets (Top and Bottom)
+
+<img src="images\z_top_bracket.PNG" alt="drawing" width="250"/>
+<img src="images\z_bottom_bracket.PNG" alt="drawing" width="250"/>
+
 ### X Carriage
 
 ## Electrical Components
