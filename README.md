@@ -43,6 +43,8 @@ ill not be concerned with the print speed or any issues with the output (within 
 - Status: In Progress
 - Expected Date: 11/30/2025
 - Comments: Once MK0 is able to complete prints I will begin replacing the temporary plywood parts with custom designed 3d printed parts. I expect this to be an iterative process as replacing selected parts should increase the overall print quality which would in turn allow me to make better versions of those parts. At this time I will also be adding mechanical belt tensioning systems and a reliable bed leveling mechanism. I will also create an electronics board beneath the print bed and clean up the wire routing.
+ - [Debrief](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK1/MK1_debrief.md)  
+ - [BOM](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK1/MK1_BOM.csv)     
 
 ## MK2 - Use It
 
