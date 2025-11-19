@@ -6,7 +6,7 @@
 
 A Cartesian, Bed-slinger style, printer. Y motion is applied to the print plate while the hot-end moves in the X and Z directions. This  provides a straightforward framework to develop a working printer which I can iterate and improve upon over time.
 
-- Print Area: ~300 x 300 x 300 mm (175mm x 175mm for MK0 due to space constraints)
+- Print Area:  280 x 280 x 300 mm
 - Total Size:  480 x 540 x 540 mm
 - Frame Material: 2020 Aluminium Extrusion (T-Slot)
 
