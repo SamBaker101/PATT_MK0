@@ -48,9 +48,11 @@ Lower bracket is not strong enough. Also center motor hole is two small. Second 
 <img src="images\z_carriage_right.PNG" alt="drawing" height="250"/>
 <img src="images\z_carriage_left.PNG" alt="drawing" height="250"/>
 
-These carriages are working fairly well. They could use some reenforcement though I also printed them with limitted infill/resolution for speed.
+These carriages are working fairly well. They could use some reenforcement though I did print them with limitted infill/resolution so reprinting may help.
 
 End stop holder should be moved up slightly to give clearance for timing belt. More space should be opened between threaded z-rod attachments to simplify installation.
+
+More space is needed for x axis to pass through body, I had to drill/melt to make space.
 
 ### X Carriage
 
