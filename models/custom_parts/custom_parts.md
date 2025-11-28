@@ -11,6 +11,11 @@ Simple wheel to sit over bed levelling nuts and make adjustment easier. This is 
 
 The spacers I used in the initial build have too large an internal diameter so there is slop in the bed, especially if the level screws are set too high. Additionally they are simple cylinders so the glue joints break easily. This part is meant to correct these issues.
 
+### Spool Holder
+<img src="images\spool_main.PNG" alt="drawing" width="250"/>
+<img src="images\spool_post.PNG" alt="drawing" width="250"/>
+<img src="images\spool_cap.PNG" alt="drawing" width="250"/>
+
 ### Lower Bed Carrier
 ### Bed Carrier
 
@@ -34,9 +39,13 @@ This is a simple bracket to stabalize the connection between the z axis frame an
 <img src="images\z_top_bracket.PNG" alt="drawing" width="250"/>
 <img src="images\z_bottom_bracket.PNG" alt="drawing" width="250"/>
 
-These haven't been tested yet
+Lower bracket is not strong enough. Also center motor hole is two small. Second revision being tested.
 
 ### Z Carriages (Left and Right)
+
+<img src="images\z_carriage_right.PNG" alt="drawing" height="250"/>
+<img src="images\z_carriage_left.PNG" alt="drawing" height="250"/>
+
 ### X Carriage
 
 <img src="images\x_carriage.PNG" alt="drawing" width="250"/>
