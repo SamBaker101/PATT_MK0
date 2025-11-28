@@ -16,6 +16,8 @@ The spacers I used in the initial build have too large an internal diameter so t
 <img src="images\spool_post.PNG" alt="drawing" width="250"/>
 <img src="images\spool_cap.PNG" alt="drawing" width="250"/>
 
+Spool holder for the top of the printer. I had to go back and add some ribs to strengthen this print. If it is still to week I may try a carriage style design where the post is reenforced on both sides.
+
 ### Lower Bed Carrier
 ### Bed Carrier
 
@@ -46,11 +48,15 @@ Lower bracket is not strong enough. Also center motor hole is two small. Second 
 <img src="images\z_carriage_right.PNG" alt="drawing" height="250"/>
 <img src="images\z_carriage_left.PNG" alt="drawing" height="250"/>
 
+These carriages are working fairly well. They could use some reenforcement though I also printed them with limitted infill/resolution for speed.
+
+End stop holder should be moved up slightly to give clearance for timing belt. More space should be opened between threaded z-rod attachments to simplify installation.
+
 ### X Carriage
 
 <img src="images\x_carriage.PNG" alt="drawing" width="250"/>
 
-These haven't been tested yet
+Insufficient space for extruder motor so I've had to use a spacer, support flaps interfering with timing belt need to be repositioned (I snapped them off for now).
 
 ## Electrical Components
 ### End Stop Holders
