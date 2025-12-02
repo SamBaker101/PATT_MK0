@@ -89,7 +89,7 @@ NOTE: These models are approximate versions created while developing the printer
 
 The model is broken into 3 primary sections, one for each axis. The Y-axis assembly includes the print plate while the X-axis includes the hotend and extruder. Each of these main assemblies is further divided into sub assemblies to isolate different segments such as motor drives, frame segments, ect. 
 
-All models were created using FreeCAD 1.0. FreeCAD can be downloaded at the following link to access or modify the files:
+All models were created using FreeCAD 1.0. FreeCAD can be downloaded at the following link.
 
 https://www.freecad.org/
 
@@ -99,8 +99,6 @@ https://www.freecad.org/
 
 <img src="./images/full_frame_05_06.PNG" alt="drawing" width="500"/>
 
-Needs Feet of some kind as the motors will drop beneath the frame by ~20mm. Could assist with leveling and shock absorbtion as well.
-
 #### Y-Axis
 
 <img src="./images/y_axis.PNG" alt="drawing" width="500"/>
@@ -108,10 +106,6 @@ Needs Feet of some kind as the motors will drop beneath the frame by ~20mm. Coul
 #### X-Axis
 
 <img src="./images/x_axis.PNG" alt="drawing" width="500"/>
-
- - Cart and hot end assembly still required
- - XZ Bracket assemblies need refinement
- - Belt Tensioner missing from left bracket
 
 #### Z-Axis
 
