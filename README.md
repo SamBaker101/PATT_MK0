@@ -81,6 +81,17 @@ The following milestones will be used to direct my efforts in this project. My o
 |PSU                 |LEDMO          | 1      | 24V          | 20A | 480W               | https://www.amazon.ca/gp/product/B08975B78Z/ref=ox_sc_act_title_4?smid=A38O99J0OT8HQ0&th=1  |
 |Fans                |               | 1+     | 12-24V       ||                |                                     |  
 |OctoPrint Server    |Orange Pi 4 LTS| 1      | 5V           ||                | Has been a bit unreliable so I may switch to an RPi Zero 2W|
+
+### Electronics Box
+
+As part of the MK1 improvements to my original prototype I am currently designing a small sidecar for the printer which will house the Arduino Mega (With RAMPS board), The Orange Pi (Being used for Octoprint) and the Reprap Display Board. 
+
+In order to simplify the wiring I will be organizing the outputs on the back of this box into two D-Sub 25 pin connectors. One of these connectors will have the 18 pin connections for the hotend as well as the 4 pins used to drive the extruder motor. The other contain the other 16 motor connections and the 9 endstop wires. I will mismatch these connectors (Male for the printhead and female for the motors) to avoid the possibility of them being plugged in backwards.
+
+The wiring and pincount of these connectors could probably be simplified in future by combining grounds and voltage lines but I will leave that as a future refinement at this time.
+
+The box will also have power inputs for the Orange Pi (USB-C) and the RAMPs board (24V from PSU).
+
 ## Modelling
 
 <img src="./images/full_build.PNG" alt="drawing" width="750"/>
