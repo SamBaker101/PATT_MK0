@@ -84,11 +84,9 @@ The following milestones will be used to direct my efforts in this project. My o
 
 ### Electronics Box
 
-As part of the MK1 improvements to my original prototype I am currently designing a small sidecar for the printer which will house the Arduino Mega (With RAMPS board), The Orange Pi (Being used for Octoprint) and the Reprap Display Board. 
+As part of the MK1 improvements to the original prototype I am currently designing a small sidecar which will house the Arduino Mega (With RAMPS board), The Orange Pi (Being used for Octoprint) and the Reprap Display Board. I am using a sidecar design as the Y-axis design is not yet finalized. In future I may move these electronics under the print bed/y-axis to minimize the printer's footprint.
 
-In order to simplify the wiring I will be organizing the outputs on the back of this box into two D-Sub 25 pin connectors. One of these connectors will have the 18 pin connections for the hotend as well as the 4 pins used to drive the extruder motor. The other contain the other 16 motor connections and the 9 endstop wires. I will mismatch these connectors (Male for the printhead and female for the motors) to avoid the possibility of them being plugged in backwards.
-
-The wiring and pincount of these connectors could probably be simplified in future by combining grounds and voltage lines but I will leave that as a future refinement at this time.
+In order to simplify the wiring I will be organizing the outputs on the back of this box into two D-Sub 25 pin connectors. One of these connectors will have the 18 pin connections for the hotend as well as the 4 pins used to drive the extruder motor. The other contain the other 16 motor connections and the 9 endstop wires. By combining some of the ground and VDD connections I should also be able to allow space for a printed bed in future. I will mismatch these connectors (Male for the printhead and female for the motors) to avoid the possibility of them being plugged in backwards.
 
 The box will also have power inputs for the Orange Pi (USB-C) and the RAMPs board (24V from PSU).
 
