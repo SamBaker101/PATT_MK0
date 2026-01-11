@@ -88,7 +88,7 @@ In order to simplify the wiring I will be organizing the outputs on the back of 
 
 The box will also have power inputs for the Orange Pi (USB-C) and the RAMPs board (24V from PSU).
 
-<img src=".\electrical\connector_wiring.PNG" alt="pic" width="800"/>
+<img src=".\electrical\connector_wiring.png" alt="pic" width="800"/>
 
 ## Modelling
 
