@@ -4,7 +4,7 @@
 
 ## Overview
 
-A Cartesian, Bed-slinger style, printer. Y motion is applied to the print plate while the hot-end moves in the X and Z directions. This design was selected to give a simple starting point to begin 3d printing. At this point the printer is still a prototype though it does now complete prints reliably. I am working to make incremental improvements to the design over time. More details about my longterm plans can be found in the roadmap below.
+A Cartesian, Direct Drive, Bed-slinger style, printer. Y motion is applied to the print plate while the hot-end moves in the X and Z directions. This design was selected to give a simple starting point to begin 3d printing. The printer is still a prototype though it does complete prints reliably. I am working to make incremental improvements to the design over time. More details about my longterm plans can be found in the roadmap below.
 
 - AnyCubic Kobra 2 Direct Drive Extruder Assembly
 - Print Area:  290 x 180 x 300 mm (Y will be 250-290 after redesign) 
@@ -21,9 +21,8 @@ The following milestones will be used to direct my efforts in this project. My o
 
 - Goal: Print a cube
 - Status: Complete
-- Expected Date: 06/30/2025 
 - Completion Date: 07/14/2025
-- Comments:  This is meant to be a minimum viable product. The only expectation is that I can connect to it, upload g-code and the printer will make a recognizable attempt to print it. At this time I will not be concerned with the print speed or any issues with the output (within reason). It is also notable that for this step I will not have access to 3d printed parts so many of the brackets and connections will need to be made with a combination of particle board, zip ties and assorted hardware.  
+- Comments:  This is meant to be a minimum viable product. The only expectation is that I can connect to it, upload g-code and the printer will make a recognizable attempt to print it. At this time I won't be optimizing for print speed or quality (within reason). It is also notable that for this step I will not have access to 3d printed parts so many of the brackets and connections will need to be made with a combination of particle board, zip ties and assorted hardware.  
  - [Debrief](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK0/MK0_debrief.md)  
  - [Testing](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK0/MK0_testing.md)  
  - [BOM](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK0/MK0_BOM.csv)     
@@ -34,9 +33,9 @@ The following milestones will be used to direct my efforts in this project. My o
      - Replace all temporary parts with self printed parts, these parts must be reliable, consistant and free of major artifacts. 
      - Reorganize electronics onto a board or container integrated into the printer body.
      - Add capability to print remotly over wifi.   
-- Status: In Progress
-- Expected Date: -
-- Comments: Once MK0 is able to complete prints I will begin replacing the temporary plywood parts with custom designed 3d printed parts. I expect this to be an iterative process as replacing selected parts should increase the overall print quality which would in turn allow me to make better versions of those parts. At this time I will also be adding mechanical belt tensioning systems and a reliable bed leveling mechanism. I will also create an electronics board beneath the print bed and clean up the wire routing. Having my laptop wired to print is a major pain point so I will also be adding an OctoPrint server to manage prints.
+- Status: Complete
+- Completion Date: 08/14/2026
+- Comments: Once MK0 is able to complete prints I will begin replacing the temporary plywood parts with custom designed 3d printed parts. I expect this to be an iterative process as replacing selected parts should increase the overall print quality which would in turn allow me to make better versions of those parts. I will also create an electronics board beneath the print bed and clean up the wire routing. Having my laptop wired to print is a major pain point so I will also be adding an OctoPrint server to manage prints.
  - [Debrief](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK1/MK1_debrief.md)  
  - [BOM](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK1/MK1_BOM.csv)     
 
@@ -44,9 +43,9 @@ The following milestones will be used to direct my efforts in this project. My o
 
 - Goal: 
      - Print a Benchy in under 45min with no major quality issues
-- Status: Planned
+- Status: In Progress
 - Expected Date: Open
-- Comments: I think it's important here to use the printer for it's intended purpose for few weeks-months building other projects. I am eager to begin work on some new robotics projetcs and to explore the organizational print community so this shouldn't be a struggle. This will give me a better sense of the printers capabilities and it's pain points.  As I become more familiar with the printer I will iterate on the custom parts and look at other enhancements that can be made to improve performance. 
+- Comments: I think it's important here to use the printer for it's intended purpose for building other projects. I am eager to begin work on some new robotics projects and to explore the organizational print community so this shouldn't be a struggle. This will give me a better sense of the printers capabilities and it's pain points.  As I become more familiar with the printer I will iterate on the custom parts, wiring, and other enhancements that can be made to improve performance. 
 
 ### MK3 - Upgrade$$$
 
@@ -82,9 +81,9 @@ The following milestones will be used to direct my efforts in this project. My o
 
 ### Electronics Box
 
-As part of the MK1 improvements to the original prototype I am currently designing a small sidecar which will house the Arduino Mega (With RAMPS board), The Orange Pi (Being used for Octoprint) and the Reprap Display Board. I am using a sidecar design as the Y-axis design is not yet finalized. In future I may move these electronics under the print bed/y-axis to minimize the printer's footprint.
+As part of the iterative improvements to the design I am creating a small sidecar which will house the Arduino Mega (With RAMPS board), The Orange Pi (Being used for Octoprint) and the Reprap Display Board. In future I may move these electronics under the print bed/y-axis to minimize the printer's footprint.
 
-In order to simplify the wiring I will be organizing the outputs on the back of this box into two D-Sub 25 pin connectors. One of these connectors will have the 18 pin connections for the hotend as well as the 4 pins used to drive the extruder motor. The other contain the other 16 motor connections and the 9 endstop wires. By combining some of the ground and VDD connections I should also be able to allow space for a printed bed in future. I will mismatch these connectors (Male for the printhead and female for the motors) to avoid the possibility of them being plugged in backwards.
+In order to simplify the wiring I will be organizing the outputs on the back of this box into two D-Sub 25 pin connectors. One of these connectors will have the 18 pin connections for the hotend as well as the 4 pins used to drive the extruder motor. The other contain the other 16 motor connections and the 9 endstop wires. By combining some of the ground and VDD connections I should also be able to allow space for a heated bed in future. I will mismatch these connectors (Male for the printhead and female for the motors) to avoid the possibility of them being plugged in backwards.
 
 The box will also have power inputs for the Orange Pi (USB-C) and the RAMPs board (24V from PSU).
 
@@ -124,14 +123,14 @@ https://www.freecad.org/
 
 My initial approach to part selection was to minimize cost wherever reasonable. My goal was to build a functional printer without a strong focus on print speed or quality. This was to allow time to develop my own skills and identify any knowledge gaps or incorrect assumptions I have.  
 
-Now that I have created a prototype device, I will begin iterating on the device and replacing those lower cost parts with higher end equipment to improve overall quality.
+Now that I have created a prototype device, I am iterating on the device and will be replacing those lower cost parts with higher end equipment to improve overall quality.
 
 [MK0 BOM](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK0/MK0_BOM.csv)
 
 
 ### Custom Parts
 
-Now that MK0 is complete I am beginning the process of replacing the wood panel parts with 3d printed ones. Additionally there are a number of fairly hackey fixes (tensioners, bed leveling, endstops ect) which need more robust solutions.
+Now that MK0 is complete I am beginning the process of replacing the wood panel parts with 3d printed ones.
 
 As I design these new parts I will place the stl files [here](https://github.com/SamBaker101/PATT_MK0/tree/main/models/custom_parts).
 
