@@ -39,7 +39,19 @@ The following milestones will be used to direct my efforts in this project. My o
  - [Debrief](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK1/MK1_debrief.md)  
  - [BOM](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK1/MK1_BOM.csv)     
 
-## MK2 - Use It
+### MK2 - Iterate
+
+- Goals: 
+     - Increase robustness and reliability of custom parts
+     - Create wiring harnesses with D-Sub connection points   
+     - Improve ease of tuning (bed leveling, belt tensioning ect.)  
+- Status: In Progress
+- Expected Date: Open
+- Comments: This is essentially a continuation of the work started in MK1. The idea is to review and iterate on the changes I've already made to improve the reliability and usability of the printer.
+ - [Debrief](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK2/MK2_debrief.md)  
+ - [BOM](https://github.com/SamBaker101/PATT_MK0/blob/main/docs/MK2/MK2_BOM.csv)     
+
+## MK3 - Use It
 
 - Goal: 
      - Print a Benchy in under 45min with no major quality issues
@@ -47,7 +59,7 @@ The following milestones will be used to direct my efforts in this project. My o
 - Expected Date: Open
 - Comments: I think it's important here to use the printer for it's intended purpose for building other projects. I am eager to begin work on some new robotics projects and to explore the organizational print community so this shouldn't be a struggle. This will give me a better sense of the printers capabilities and it's pain points.  As I become more familiar with the printer I will iterate on the custom parts, wiring, and other enhancements that can be made to improve performance. 
 
-### MK3 - Upgrade$$$
+### MK4 - Upgrade$$$
 
 - Goal: 
      - Print Benchy without major errors in PETG, TPE and ABS. 

@@ -1,4 +1,4 @@
-# MK1 - Basic Prototype
+# MK1 - It Prints Itself?
 
 *Need updated pic
 
@@ -11,7 +11,6 @@ The primary goal of MK1 is to move from the somewhat hacked together MK0 to a mo
 The basic structure of the printer is unchanged however the brackets, carriages and clips have been replaced by 3d printed PLA parts of my own design. I have added a textured, magnetic build plate and a housing for the electronics. Additionally I added an Orange Pi to the design to run an Opctoprint server sllowing me to send or manage print jobs from anywhere on my local network with any of my devices.
 
 ## Lessons
-While perfection was never the goal here this project was not without it's problems. Below I would like to detail some of the main issues I encountered building this prototype and discuss the lessons learned from them. 
 
 ### Vibrations in Wiring
 The need for a proper wiring harness has become very clear. Aside from the asthetic issues with the current wiring it makes it very difficult to debug any connection issues and causes problems when there is a need to disconnect the electronics from the printer.
