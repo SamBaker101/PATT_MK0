@@ -1,6 +1,6 @@
 # PRINT ALL THE THINGS!
 
-<img src=".\docs\MK1\images\full_build_mk0_5.jpg" alt="pic" width="600"/>
+<img src=".\docs\MK1\images\full_build_mk1.jpg" alt="pic" width="600"/>
 
 ## Overview
 

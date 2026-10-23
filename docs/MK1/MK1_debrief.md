@@ -1,6 +1,6 @@
 # MK1 - It Prints Itself?
 
-*Need updated pic
+<img src=".\images\full_build_mk1.jpg" alt="pic" width="400"/>
 
 ## Background
 
