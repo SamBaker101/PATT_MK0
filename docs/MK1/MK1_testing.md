@@ -17,6 +17,6 @@ My suspicion is that max feedrate in FW was still set to 80 for X and Y and 60 f
 
 | Test Name | Slicer Estimate| Slicer Speed | Octo Estimate | Actual Time | Notes                                                                              |
 |-----------|----------------|--------------|---------------|-------------|------------------------------------------------------------------------------------|
-|3dBenchy100| 1:00           | 100          | 1:07          |             |                                                                                    |
-|3dBenchy150| 52min          | 150          | 1:00          |             |                                                                                    |
+|3dBenchy100| 1:00           | 100          | 1:07          | 1:33        | I expected better... That's discouraging                                           |
+|3dBenchy150| 52min          | 150          | 1:00          | -           | Skipping for now                                                                   |
 |3dBenchy200| 49min          | 200          | 57min         |             |                                                                                    |
