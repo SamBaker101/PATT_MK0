@@ -26,11 +26,11 @@ No meaningful change... Clearly comething else (acceleration?) is still bottlene
 Extruder max feedrate is still only 80.
 The internet tells me ideal acceleration to feed rate is 10:1 to 20:1 which I'm well below.
 
-M201 X2000.00 Y2000.00 Z300.00 E30000.00
+M201 X2000.00 Y2000.00 Z100.00 E30000.00
 M203 X200.00 Y200.00 Z100.00 E100.00
 M500                : Save change
 
-I only bumped the extruder slightly as I'm not sure how my hot end will respond, increased to max accelleration quite a bit.
+I only bumped the extruder slightly as I'm not sure how my hot end will respond, increased to max acceleration quite a bit.
 
 | Test Name | Slicer Estimate| Slicer Speed | Octo Estimate | Actual Time | Notes                                                                              |
 |-----------|----------------|--------------|---------------|-------------|------------------------------------------------------------------------------------|
@@ -38,4 +38,8 @@ I only bumped the extruder slightly as I'm not sure how my hot end will respond,
 |3dBenchy150| 52min          | 150          | 1:00          | 1:05        | Some speed gain again, still not as high as expected, Some Y-shift (less though)   |
 |3dBenchy200| 49min          | 200          | 57min         | 1:03        | Hmm... No Y-shift on this one though                                               |
 
-I am now seeing soem speed gains though not nearly as high as I would expect based on the difference in speed setting between the different prints. I am now seeing some glitches introduced in the Y axis so I may need to pull back the acceleration in that direction.
+Lot of Y-shift issues, particularily with taller models. I suspect theres a mechanical reason so I'll be looking into it buut I'm going to pull everythiing back a little in the meantime
+
+M201 X1500.00 Y1500.00 Z60.00 E30000.00
+M203 X180.00 Y180.00 Z80.00 E100.00
+M500                : Save change
